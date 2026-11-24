@@ -15,7 +15,7 @@ stages {
 stage('Checkout GitHub') {
 steps {
 git branch: 'main',
-url: 'https://github.com/yasminebenattia/DevOps-AppGestionDesProjets.git'
+url: 'https://github.com/MayssemChouria/DevOps-AppGestionDesProjets.git'
 }
 }
 stage('Build Backend') {
